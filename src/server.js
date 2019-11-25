@@ -5,7 +5,7 @@ const path = require('path');
 
 // Serve only the static files form the dist directory
 app.use(express.static(__dirname + '/dist'));
-app.listen(process.env.PORT || 8080);
+app.listen(process.env.PORT || 8070);
 
 app.get('/*', function(req,res) {
 res.sendFile(path.join(__dirname +'/dist/index.html'));
