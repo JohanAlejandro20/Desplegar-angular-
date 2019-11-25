@@ -1,0 +1,15 @@
+<div class="container">
+<h1>Crear Usuarios</h1>
+<table class="table">
+        <tbody>
+        <tr>
+                <td>Nombre del Estudiantes</td>
+                <td></td>
+        </tr>
+        <tr>
+        <td><input type="text" [(ngModel)]="nombreInput" class="form-control"></td>
+        <td> <a routerLink="/students" routerLinkActive="active"><input type="button" class="btn btn-primary btn-sm" value="Crear" (click)="crearEstudiantes()"></a></td>
+        </tr>
+        </tbody>
+</table>       
+</div>

@@ -1,0 +1,17 @@
+<div class="container">
+    <h1>Crear Prestamos</h1>
+    <table class="table">
+        <tbody>
+            <tr>
+                <td>Codigo Estudiante</td>
+                <td> Codigo Libros</td>  
+                <td></td>
+            </tr>
+            <tr>
+                <td><input type="text" [(ngModel)]="studentsInput" class="form-control"></td>
+                <td><input type="text" [(ngModel)]="librosInput" class="form-control"></td>
+                <td><a routerLink="/loans" routerLinkActive="active"><input type="button" class="btn btn-primary btn-sm" value="Crear" (click)="crearPrestamos()"></a></td>
+            </tr>
+        </tbody>
+    </table>       
+ </div>

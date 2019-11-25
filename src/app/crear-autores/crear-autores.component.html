@@ -1,0 +1,17 @@
+<div class="container">
+    <h1>Crear Autores</h1>
+    <table class="table">
+        <tbody>
+            <tr>
+                <td>Nombre del Autor</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><input type="text" [(ngModel)]="autor" class="form-control"></td>
+                <td><a routerLink="/authors" routerLinkActive="active"><input type="button" class="btn btn-primary btn-sm" value="Crear" (click)="crearAutor()"></a></td>
+            </tr>
+        </tbody>
+    </table>       
+</div>
+
+      

@@ -1,0 +1,17 @@
+<div class="container">
+    <h1>Crear Libros</h1>
+    <table class="table">
+        <tbody>
+            <tr>
+                <td>Nombre del libro</td>
+                <td>Codigo Autor</td>  
+                <td></td>
+            </tr>
+            <tr>
+                <td><input type="text" [(ngModel)]="nombreLInput" class="form-control"></td>
+                <td> <input type="text" [(ngModel)]="codigoAInput" class="form-control"></td>
+                <td><a routerLink="/books" routerLinkActive="active"><input type="button" class="btn btn-primary btn-sm" value="Crear" (click)="crearLibros()"></a></td>
+            </tr>
+        </tbody>
+    </table>       
+</div>
